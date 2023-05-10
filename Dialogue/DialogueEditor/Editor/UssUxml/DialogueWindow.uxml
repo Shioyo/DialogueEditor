@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/DialogueEditor/Editor/UssUxml/DialogueWindow.uss?fileID=7433441132597879392&amp;guid=eb371fb06d6fcf840b01ba9ad70d3f87&amp;type=3#DialogueWindow" />
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" name="Assets" text="Assets" />
+    </uie:Toolbar>
+    <SplitView name="Split-View" fixed-pane-initial-dimension="200">
+        <ui:VisualElement name="left-panel" style="width: auto; flex-basis: auto;">
+            <SplitView fixed-pane-initial-dimension="319" orientation="Vertical">
+                <ui:VisualElement name="Inspector-container">
+                    <ui:Label text="Inspector" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37); -unity-font-style: bold-and-italic; -unity-font: resource(&apos;Fonts/SourceHanSansCN-Regular&apos;); -unity-text-align: middle-left;" />
+                    <InspectorView style="flex-grow: 1; width: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="property-container" style="height: initial; min-width: initial; min-height: initial;">
+                    <ui:Label text="SharedProperty" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37); -unity-font: resource(&apos;Fonts/SourceHanSansCN-Regular&apos;); -unity-text-align: middle-left; font-size: 12px; -unity-font-style: bold-and-italic;" />
+                    <ui:IMGUIContainer name="property" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </SplitView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 0;">
+            <DialogueView focusable="true" name="DialogueView" style="flex-grow: 1;">
+                <ui:Label text="View" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37); border-bottom-width: 1px; border-bottom-color: rgb(25, 25, 25); border-top-width: 0; border-right-width: 0; border-left-width: 0; border-left-color: rgb(25, 25, 25); border-right-color: rgb(25, 25, 25); border-top-color: rgb(25, 25, 25); -unity-font-style: bold-and-italic; -unity-font: resource(&apos;Fonts/SourceHanSansCN-Regular&apos;); -unity-text-align: middle-left;" />
+            </DialogueView>
+        </ui:VisualElement>
+    </SplitView>
+</ui:UXML>

@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/DialogueEditor/Editor/UssUxml/NodeView.uss?fileID=7433441132597879392&amp;guid=fd487db925eb3c1419755f4aad6d36c3&amp;type=3#NodeView" />
+    <ui:VisualElement name="state-border" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+    <ui:VisualElement name="node-border" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+        <ui:VisualElement name="title" style="flex-direction: row; justify-content: space-between; padding-bottom: 3px; margin-bottom: 1px; margin-top: 0; flex-grow: 1; flex-wrap: nowrap; min-height: 40px; -unity-text-align: middle-center; -unity-font-style: bold-and-italic;">
+            <ui:Label name="title-label" text="RepeatNode" class="unity-text-element unity-label" />
+            <ui:VisualElement name="title-button-container" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; font-size: 12px;">
+                <ui:VisualElement name="collapse-button" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                    <ui:VisualElement name="icon" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="contents" class="contents" style="flex-direction: column; flex-wrap: nowrap; justify-content: space-between; border-bottom-width: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; flex-grow: 1; background-color: rgb(60, 60, 60); border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; padding-bottom: 0; margin-bottom: 0; padding-right: 0; padding-left: 0; padding-top: 0;">
+            <ui:VisualElement name="divider" class="horizontal" style="flex-direction: column; flex-shrink: 0; background-color: rgb(19, 19, 19); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; margin-top: 0; height: 0;" />
+            <ui:VisualElement name="top" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-between; flex-basis: auto; flex-grow: 1; align-items: stretch; white-space: normal; background-color: rgb(60, 60, 60);">
+                <ui:VisualElement name="input" style="flex-grow: 1; flex-direction: row; flex-basis: auto; width: auto; flex-shrink: 0;" />
+                <ui:VisualElement name="output" style="flex-basis: auto; flex-grow: 1; flex-direction: row; flex-wrap: nowrap; width: auto; flex-shrink: 0; background-color: rgb(40, 40, 40); margin-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="height: 1px; margin-top: 0; margin-bottom: 1px; background-color: rgb(7, 7, 7);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+</ui:UXML>
