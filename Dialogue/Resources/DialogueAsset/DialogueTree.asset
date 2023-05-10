@@ -1,0 +1,646 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8101412197600951278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 8f2a0184b5dffae4d968768e265c9279
+  Position: {x: 1924.548, y: -262.69345}
+  Ports:
+  - Name: In
+    Guid: a7d77a37-7c8c-4bf7-a7f6-a945adfbcd34
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 2833171c-684d-4288-bd66-92637e575bc4
+    ConnetToGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u5982\u4F60\u6240\u89C1,\u8FD9\u91CC\u662F\u4E00\u4E2A\u65E0\u804A\u7684\u5730\u65B9\uFF0C\u65E0\u804A\u7684\u4EBA\uFF0C\u65E0\u804A\u7684\u4E8B\uFF0C\u65E0\u804A\u7684\u5730\u65B9..."
+--- !u!114 &-5023118298245235060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207fa173fc0a544448bc1c2bc3e118c6, type: 3}
+  m_Name: StartNodeData
+  m_EditorClassIdentifier: 
+  TypeName: StartNodeData
+  NodeName: UnNamed
+  Guid: dea02cab57c3b82418028d0e94f78438
+  Position: {x: -1042.4001, y: 94.40004}
+  Ports:
+  - Name: Out
+    Guid: 0235bec5-b3f0-4151-b78f-8781828b2952
+    ConnetToGuid: bf290e95-b437-4952-978f-6e13d78ad8bc
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Message: Start Dialogue!
+--- !u!114 &-4693892945699761384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 589da0e81e6c5474aa050c521bca5cdd
+  Position: {x: 1511.9993, y: 416.00018}
+  Ports:
+  - Name: In
+    Guid: 360fe3af-3a27-435f-8fc0-ae196056aaa1
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 7f4f17ec-7c4d-42e7-807d-afdda0b6b2c6
+    ConnetToGuid: 6c96bf82-3098-4b36-bc9b-4d17da529c6f
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u518D\u89C1"
+--- !u!114 &-1472204533818824171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: bb2c32ee575e1f540b2f7a97c3ba1995
+  Position: {x: 1512, y: 62.40008}
+  Ports:
+  - Name: In
+    Guid: 6cea1995-4233-400a-8010-55030ce7cbd0
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 120d8451-1794-42d1-b025-e20dcbf1eba5
+    ConnetToGuid: e9922de0-324d-4b15-b2fe-8ecb63384f21
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u554A\uFF0C\u4F60\u95EE\u6211\u5417\uFF0C\u6211\u662F\u6CA1\u4EC0\u4E48\u770B\u6CD5\u4E86\uFF0C\u5BF9\u6211\u6765\u8BF4\u6CA1\u6709\u592A\u5927\u7684\u5F71\u54CD"
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a43acf60167fd41aa94c6c4b999ff8, type: 3}
+  m_Name: DialogueTree
+  m_EditorClassIdentifier: 
+  Nodes:
+  - {fileID: -5023118298245235060}
+  - {fileID: 2606802597454434964}
+  - {fileID: 8800323260366789475}
+  - {fileID: 5731391880973450251}
+  - {fileID: 6857118471132932245}
+  - {fileID: 8984027404246499551}
+  - {fileID: 7143549312894305803}
+  - {fileID: -1472204533818824171}
+  - {fileID: -4693892945699761384}
+  - {fileID: 4595102576513106085}
+  - {fileID: 2809198608935905838}
+  - {fileID: -8101412197600951278}
+  - {fileID: 4893239498292781768}
+  - {fileID: 461332627884753643}
+  - {fileID: 2178224517339931915}
+  - {fileID: 9132713362763684502}
+  - {fileID: 7212478748847140398}
+  - {fileID: 7576810484316214794}
+  Edges:
+  - BaseGuid: 076b1035-308b-4d1a-b9a2-c0253fae8cfc
+    TargetGuid: 8e288eb0-e67f-4ccd-b459-d74fd607d312
+  - BaseGuid: 8f680cec-398c-4fc5-98ad-2fe77e001e4b
+    TargetGuid: 360b35a2-1abf-41b0-a877-d8a97ba86a65
+  - BaseGuid: 61603124-ca62-41c0-98db-057293abbc0f
+    TargetGuid: f4c93cd0-4c89-4e56-9b09-da9250c5c7f9
+  - BaseGuid: 05acf923-ef50-4846-8437-f10348f7ed6f
+    TargetGuid: ab2dd36c-878a-4a68-98ff-e52ea4d64d7b
+  - BaseGuid: ddca4434-674b-4937-bae2-0a07ec47033d
+    TargetGuid: a7d77a37-7c8c-4bf7-a7f6-a945adfbcd34
+  - BaseGuid: 3087ab0e-cede-4df7-b55b-b7358dc4f182
+    TargetGuid: 35e73230-ad61-4e7d-9229-c6092d53ca51
+  - BaseGuid: 02f285e3-2650-49aa-a20f-babf668b01fc
+    TargetGuid: eb24af0d-a2d6-47d2-8920-b11e703af81a
+  - BaseGuid: 5a239f3f-a354-4e76-a530-f28b60bb790e
+    TargetGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+  - BaseGuid: 02622a1a-fd89-486a-b2da-c89037a26086
+    TargetGuid: 6cea1995-4233-400a-8010-55030ce7cbd0
+  - BaseGuid: 587f897b-fba8-4b9a-9d25-92cda995d457
+    TargetGuid: 360fe3af-3a27-435f-8fc0-ae196056aaa1
+  - BaseGuid: 2833171c-684d-4288-bd66-92637e575bc4
+    TargetGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+  - BaseGuid: e9cd607a-9f3d-40c5-a18c-bafbe1118766
+    TargetGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+  - BaseGuid: 0235bec5-b3f0-4151-b78f-8781828b2952
+    TargetGuid: bf290e95-b437-4952-978f-6e13d78ad8bc
+  - BaseGuid: f12cef86-42c5-43b3-a68a-a17e60316e5a
+    TargetGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+  - BaseGuid: a3eaa71d-cf8b-4f36-8006-50c295bb743d
+    TargetGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+  - BaseGuid: 7a0a371b-eaa7-49f2-a86b-53d611c79d27
+    TargetGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+  - BaseGuid: 54300509-cc99-452e-8909-e4cc1d2b976a
+    TargetGuid: 380bff3a-ce29-4d56-a644-e57ce0048efb
+  - BaseGuid: c6ef10e6-8db2-4cac-aad0-1d0eadee3e99
+    TargetGuid: fb7649da-6296-42b0-947a-c7ff8028c3bf
+  - BaseGuid: 7f4f17ec-7c4d-42e7-807d-afdda0b6b2c6
+    TargetGuid: 6c96bf82-3098-4b36-bc9b-4d17da529c6f
+  - BaseGuid: 120d8451-1794-42d1-b025-e20dcbf1eba5
+    TargetGuid: e9922de0-324d-4b15-b2fe-8ecb63384f21
+  - BaseGuid: 150ac4ac-fae0-451c-b889-282838c00357
+    TargetGuid: 23c8396c-968c-4044-8157-872a60d6791b
+  SharedProperty: {fileID: 11400000, guid: 96444b0c045441947b4f82f0c65ffb26, type: 2}
+--- !u!114 &461332627884753643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: a0f0889252ee3cc46a4d7a1ceb2f8425
+  Position: {x: 2309.121, y: 51.019356}
+  Ports:
+  - Name: In
+    Guid: 23c8396c-968c-4044-8157-872a60d6791b
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: e9cd607a-9f3d-40c5-a18c-bafbe1118766
+    ConnetToGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u8FD8\u6709\u4EC0\u4E48\u60F3\u95EE\u7684\u5417"
+--- !u!114 &2178224517339931915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 07333e8d9713a0e428182d2782d4842d
+  Position: {x: 207.29819, y: 91.48086}
+  Ports:
+  - Name: In
+    Guid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 54300509-cc99-452e-8909-e4cc1d2b976a
+    ConnetToGuid: 380bff3a-ce29-4d56-a644-e57ce0048efb
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u5F88\u9AD8\u5174\u89C1\u5230\u4F60"
+--- !u!114 &2606802597454434964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01682d6bf270b7f4dbd1b741c835a034, type: 3}
+  m_Name: SwitchNodeData
+  m_EditorClassIdentifier: 
+  TypeName: SwitchNodeData
+  NodeName: UnNamed
+  Guid: 74402bd5345941f449870d6020e2d5cb
+  Position: {x: -693.5998, y: 3.199854}
+  Ports:
+  - Name: In
+    Guid: bf290e95-b437-4952-978f-6e13d78ad8bc
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 076b1035-308b-4d1a-b9a2-c0253fae8cfc
+    ConnetToGuid: 8e288eb0-e67f-4ccd-b459-d74fd607d312
+    Direction: 1
+    Capacity: 0
+  - Name: Out
+    Guid: 8f680cec-398c-4fc5-98ad-2fe77e001e4b
+    ConnetToGuid: 360b35a2-1abf-41b0-a877-d8a97ba86a65
+    Direction: 1
+    Capacity: 0
+  - Name: Out
+    Guid: 61603124-ca62-41c0-98db-057293abbc0f
+    ConnetToGuid: f4c93cd0-4c89-4e56-9b09-da9250c5c7f9
+    Direction: 1
+    Capacity: 0
+  State: 0
+  DialogueEventAsset: {fileID: 11400000, guid: 623f5c6743b254d4b97da5506b5b3325, type: 2}
+  FunctionName: Swicth_01
+--- !u!114 &2809198608935905838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da03aaa73495a934e84d9db43c08f575, type: 3}
+  m_Name: JumpNodeData
+  m_EditorClassIdentifier: 
+  TypeName: JumpNodeData
+  NodeName: UnNamed
+  Guid: cc54b871c2b9b87459b12bc553cfb937
+  Position: {x: 2699.199, y: -215.99992}
+  Ports:
+  - Name: In
+    Guid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  State: 0
+  JumpToNodeName: "\u82B1\u89C1\u591C-\u6709\u4EC0\u4E48\u60F3\u505A\u7684\u5417"
+--- !u!114 &4595102576513106085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 8e40ef00006da80479164547d0042f14
+  Position: {x: 1714.4004, y: -562.3999}
+  Ports:
+  - Name: In
+    Guid: 35e73230-ad61-4e7d-9229-c6092d53ca51
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 02f285e3-2650-49aa-a20f-babf668b01fc
+    ConnetToGuid: eb24af0d-a2d6-47d2-8920-b11e703af81a
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u4E0D\uFF0C\u6211\u5E73\u65F6\u6CA1\u4EC0\u4E48\u4E8B\u505A"
+--- !u!114 &4893239498292781768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 64e374e00ee635d47946cef8d7e7b707
+  Position: {x: 2058.7998, y: -562.60004}
+  Ports:
+  - Name: In
+    Guid: eb24af0d-a2d6-47d2-8920-b11e703af81a
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 5a239f3f-a354-4e76-a530-f28b60bb790e
+    ConnetToGuid: 8de5c2d7-184c-4105-bdcf-bc64ab3e9645
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u5927\u90E8\u5206\u65F6\u5019\u6211\u90FD\u5F85\u5728\u8FD9\u91CC"
+--- !u!114 &5731391880973450251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 2a194307e7d36744b83019f8ae1f257b
+  Position: {x: -225.60004, y: 43.999928}
+  Ports:
+  - Name: In
+    Guid: 360b35a2-1abf-41b0-a877-d8a97ba86a65
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: a3eaa71d-cf8b-4f36-8006-50c295bb743d
+    ConnetToGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u4E2D\u5348\u597D"
+--- !u!114 &6857118471132932245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 8ff5d024fd91a604c97602abc14fcc68
+  Position: {x: -226.40009, y: 347.2}
+  Ports:
+  - Name: In
+    Guid: f4c93cd0-4c89-4e56-9b09-da9250c5c7f9
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 7a0a371b-eaa7-49f2-a86b-53d611c79d27
+    ConnetToGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u4E0B\u5348\u597D"
+--- !u!114 &7143549312894305803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b6c5768e993314085901532879e1ca, type: 3}
+  m_Name: ChoiceNodeData
+  m_EditorClassIdentifier: 
+  TypeName: ChoiceNodeData
+  NodeName: UnNamed
+  Guid: c191eae8cedc2f743a048ee774cef090
+  Position: {x: 1349.5999, y: -262.40002}
+  Ports:
+  - Name: In
+    Guid: ab2dd36c-878a-4a68-98ff-e52ea4d64d7b
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 3087ab0e-cede-4df7-b55b-b7358dc4f182
+    ConnetToGuid: 35e73230-ad61-4e7d-9229-c6092d53ca51
+    Direction: 1
+    Capacity: 0
+  - Name: Out
+    Guid: ddca4434-674b-4937-bae2-0a07ec47033d
+    ConnetToGuid: a7d77a37-7c8c-4bf7-a7f6-a945adfbcd34
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Choice:
+  - ChoiceName: "\u4F60\u5E73\u65F6\u5F88\u5FD9\u5417"
+    PortGuid: 3087ab0e-cede-4df7-b55b-b7358dc4f182
+  - ChoiceName: "\u8FD9\u91CC\u6709\u4EC0\u4E48\u6709\u8DA3\u7684\u4E8B\u5417"
+    PortGuid: ddca4434-674b-4937-bae2-0a07ec47033d
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u60F3\u804A\u4EC0\u4E48\u5462"
+--- !u!114 &7212478748847140398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd91ca39ed81c447b4dc8188ef3b98f, type: 3}
+  m_Name: EndNodeData
+  m_EditorClassIdentifier: 
+  TypeName: EndNodeData
+  NodeName: UnNamed
+  Guid: bbd71cd24f7ae2a4c9cf0facf3ac6d2a
+  Position: {x: 1914.498, y: 416.07495}
+  Ports:
+  - Name: In
+    Guid: 6c96bf82-3098-4b36-bc9b-4d17da529c6f
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  State: 0
+--- !u!114 &7576810484316214794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0dd15e93a790ce49b933f335663f5d3, type: 3}
+  m_Name: ActionNodeData
+  m_EditorClassIdentifier: 
+  TypeName: ActionNodeData
+  NodeName: UnNamed
+  Guid: 4bf392d8c6faaaa4cb08c666ab867040
+  Position: {x: 1882.1865, y: 114.21003}
+  Ports:
+  - Name: In
+    Guid: e9922de0-324d-4b15-b2fe-8ecb63384f21
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 150ac4ac-fae0-451c-b889-282838c00357
+    ConnetToGuid: 23c8396c-968c-4044-8157-872a60d6791b
+    Direction: 1
+    Capacity: 0
+  State: 0
+  DialogueEventAsset: {fileID: 11400000, guid: 623f5c6743b254d4b97da5506b5b3325, type: 2}
+  FunctionName: AddSampleInt
+--- !u!114 &8800323260366789475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: 204c55abe3989ca40b31c570db366bde
+  Position: {x: -225.59991, y: -252.00008}
+  Ports:
+  - Name: In
+    Guid: 8e288eb0-e67f-4ccd-b459-d74fd607d312
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: f12cef86-42c5-43b3-a68a-a17e60316e5a
+    ConnetToGuid: bb78bfd6-2fca-4b4c-8632-49955f7b81b9
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u65E9\u4E0A\u597D"
+--- !u!114 &8984027404246499551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b6c5768e993314085901532879e1ca, type: 3}
+  m_Name: ChoiceNodeData
+  m_EditorClassIdentifier: 
+  TypeName: ChoiceNodeData
+  NodeName: "\u82B1\u89C1\u591C-\u6709\u4EC0\u4E48\u60F3\u505A\u7684\u5417"
+  Guid: ebdafb51609d79b498f709e317c221a6
+  Position: {x: 987.19995, y: 61.599922}
+  Ports:
+  - Name: In
+    Guid: fb7649da-6296-42b0-947a-c7ff8028c3bf
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: 05acf923-ef50-4846-8437-f10348f7ed6f
+    ConnetToGuid: ab2dd36c-878a-4a68-98ff-e52ea4d64d7b
+    Direction: 1
+    Capacity: 0
+  - Name: Out
+    Guid: 02622a1a-fd89-486a-b2da-c89037a26086
+    ConnetToGuid: 6cea1995-4233-400a-8010-55030ce7cbd0
+    Direction: 1
+    Capacity: 0
+  - Name: Out
+    Guid: 587f897b-fba8-4b9a-9d25-92cda995d457
+    ConnetToGuid: 360fe3af-3a27-435f-8fc0-ae196056aaa1
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Choice:
+  - ChoiceName: "\u53EA\u662F\u60F3\u627E\u4F60\u804A\u804A\u5929"
+    PortGuid: 05acf923-ef50-4846-8437-f10348f7ed6f
+  - ChoiceName: "\u5173\u4E8E\u8FD9\u4EF6\u4E8B\u4F60\u600E\u4E48\u770B\u5462"
+    PortGuid: 02622a1a-fd89-486a-b2da-c89037a26086
+  - ChoiceName: "\u6CA1\u4E8B"
+    PortGuid: 587f897b-fba8-4b9a-9d25-92cda995d457
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u6709\u4EC0\u4E48\u60F3\u505A\u7684\u5417"
+--- !u!114 &9132713362763684502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b06baeb467acd48843453c2bfe2a50, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  TypeName: DialogueNodeData
+  NodeName: UnNamed
+  Guid: a905b731ff5d6c84d80a4d1a28448270
+  Position: {x: 643.6805, y: 80.6649}
+  Ports:
+  - Name: In
+    Guid: 380bff3a-ce29-4d56-a644-e57ce0048efb
+    ConnetToGuid: 
+    Direction: 0
+    Capacity: 1
+  - Name: Out
+    Guid: c6ef10e6-8db2-4cac-aad0-1d0eadee3e99
+    ConnetToGuid: fb7649da-6296-42b0-947a-c7ff8028c3bf
+    Direction: 1
+    Capacity: 0
+  State: 0
+  Clip: {fileID: 0}
+  Name: "\u82B1\u89C1\u591C"
+  Dialogue: "\u5982\u679C\u4F60\u6709\u4EFB\u4F55\u60F3\u95EE\u7684\u53EF\u4EE5\u95EE\u6211"
